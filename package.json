@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "High-performance reactive event system with batched updates, middleware support, and streaming capabilities",
   "type": "module",
-  "main": "./dist/index.js",
+  "main": "./dist/reactive-event-system.js",
   "types": "./dist/index.d.ts",
   "private": false,
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
+      "import": "./dist/reactive-event-system.js",
+      "require": "./dist/reactive-event-system.cjs",
       "types": "./dist/index.d.ts"
     }
   },
