@@ -1,0 +1,258 @@
+
+    <svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#4f46e5" />
+          <stop offset="100%" stop-color="#8b5cf6" />
+        </linearGradient>
+        <radialGradient id="coreGradient" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#6366f1" />
+          <stop offset="100%" stop-color="#4f46e5" />
+        </radialGradient>
+        <filter id="glow">
+          <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+          <feMerge>
+            <feMergeNode in="coloredBlur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </defs>
+
+      <!-- Background -->
+      <rect width="100%" height="100%" fill="#1f2937" />
+
+      <!-- Animated Network Elements -->
+      <g id="network">
+        <!-- Central Core -->
+        <circle cx="960" cy="540" r="80" fill="url(#coreGradient)" />
+        <circle cx="960" cy="540" r="40" fill="#f8fafc" />
+        
+        <!-- Lightning Icon -->
+        <text x="960" y="540" text-anchor="middle" dominant-baseline="central" 
+              font-family="Arial" font-size="48" font-weight="bold" fill="#1f2937">
+          ⚡
+        </text>
+
+        <!-- Animated Nodes -->
+        
+      <circle class="node" cx="1223.8192424689282" cy="540" r="6.791649684404704" 
+              fill="#10b981" 
+              style="animation-delay: 1.2742325042855493s" />
+    
+        <line class="connection" x1="1223.8192424689282" y1="540" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 1.2742325042855493s" />
+      
+      <circle class="node" cx="1333.6789627056567" cy="640.1269762854803" r="2.462597810615566" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.462972157172745s" />
+    
+      <circle class="node" cx="1324.7384752069258" cy="750.5818568445322" r="5.808373176296174" 
+              fill="#f59e0b" 
+              style="animation-delay: 1.4780931969402833s" />
+    
+        <line class="connection" x1="1324.7384752069258" y1="750.5818568445322" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 1.4780931969402833s" />
+      
+      <circle class="node" cx="1139.220600130588" cy="719.220600130588" r="6.316722131592147" 
+              fill="#10b981" 
+              style="animation-delay: 0.3919670376823481s" />
+    
+        <line class="connection" x1="1139.220600130588" y1="719.220600130588" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.3919670376823481s" />
+      
+      <circle class="node" cx="1102.9573357180616" cy="787.6093687783635" r="6.2973960469437" 
+              fill="#f59e0b" 
+              style="animation-delay: 1.2019421723409076s" />
+    
+      <circle class="node" cx="1050.81781569971" cy="878.9367024237448" r="3.9017709742887265" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.16579220418467977s" />
+    
+      <circle class="node" cx="960" cy="981.7735757813222" r="4.598419878971856" 
+              fill="#10b981" 
+              style="animation-delay: 1.6533283838579185s" />
+    
+        <line class="connection" x1="960" y1="981.7735757813222" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 1.6533283838579185s" />
+      
+      <circle class="node" cx="850.4046997126613" cy="949.0152289431156" r="6.972628206060708" 
+              fill="#f59e0b" 
+              style="animation-delay: 1.8948032342868597s" />
+    
+        <line class="connection" x1="850.4046997126613" y1="949.0152289431156" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 1.8948032342868597s" />
+      
+      <circle class="node" cx="819.5936042925651" cy="783.1910110728979" r="5.471365017643492" 
+              fill="#f59e0b" 
+              style="animation-delay: 1.7412153693119223s" />
+    
+        <line class="connection" x1="819.5936042925651" y1="783.1910110728979" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 1.7412153693119223s" />
+      
+      <circle class="node" cx="777.3069608696878" cy="722.6930391303122" r="6.99821656422566" 
+              fill="#10b981" 
+              style="animation-delay: 1.0103691803665802s" />
+    
+        <line class="connection" x1="777.3069608696878" y1="722.6930391303122" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 1.0103691803665802s" />
+      
+      <circle class="node" cx="681.0307372157945" cy="701.0629789640925" r="3.965457762933239" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.029769060791406066s" />
+    
+        <line class="connection" x1="681.0307372157945" y1="701.0629789640925" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.029769060791406066s" />
+      
+      <circle class="node" cx="745.7980481854621" cy="597.3952400058757" r="2.7773571023479904" 
+              fill="#f59e0b" 
+              style="animation-delay: 1.635064572623583s" />
+    
+        <line class="connection" x1="745.7980481854621" y1="597.3952400058757" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 1.635064572623583s" />
+      
+      <circle class="node" cx="540.2078264841532" cy="540" r="2.8190345796937297" 
+              fill="#10b981" 
+              style="animation-delay: 0.05984758989706451s" />
+    
+        <line class="connection" x1="540.2078264841532" y1="540" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.05984758989706451s" />
+      
+      <circle class="node" cx="616.6507174458752" cy="447.999837017817" r="6.87276387218785" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.43447443549153353s" />
+    
+      <circle class="node" cx="750.216754985247" cy="418.88158701925914" r="4.655387779599609" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.0996358560758952s" />
+    
+        <line class="connection" x1="750.216754985247" y1="418.88158701925914" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.0996358560758952s" />
+      
+      <circle class="node" cx="753.8757805549061" cy="333.8757805549062" r="5.417890180832576" 
+              fill="#10b981" 
+              style="animation-delay: 0.34513200014778533s" />
+    
+      <circle class="node" cx="819.8981884255788" cy="297.3365441206614" r="5.078015989922616" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.17197602560518632s" />
+    
+        <line class="connection" x1="819.8981884255788" y1="297.3365441206614" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.17197602560518632s" />
+      
+      <circle class="node" cx="871.1234424179187" cy="208.3081715018513" r="5.472382576584113" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.3693404578578947s" />
+    
+      <circle class="node" cx="959.9999999999999" cy="42.24991370692828" r="2.3500186951530155" 
+              fill="#10b981" 
+              style="animation-delay: 1.651981889057232s" />
+    
+      <circle class="node" cx="1064.3878315869144" cy="150.41930882569096" r="6.0220353987735615" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.1582519548835688s" />
+    
+        <line class="connection" x1="1064.3878315869144" y1="150.41930882569096" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.1582519548835688s" />
+      
+      <circle class="node" cx="1146.5432635005882" cy="216.89758980727242" r="5.97922121001843" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.21827987280827132s" />
+    
+        <line class="connection" x1="1146.5432635005882" y1="216.89758980727242" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.21827987280827132s" />
+      
+      <circle class="node" cx="1104.0533251160316" cy="395.9466748839684" r="2.355958805332517" 
+              fill="#10b981" 
+              style="animation-delay: 0.740201509422334s" />
+    
+        <line class="connection" x1="1104.0533251160316" y1="395.9466748839684" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.740201509422334s" />
+      
+      <circle class="node" cx="1300.9235792771387" cy="343.16767973125303" r="3.795237062739572" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.9963442902332047s" />
+    
+        <line class="connection" x1="1300.9235792771387" y1="343.16767973125303" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.9963442902332047s" />
+      
+      <circle class="node" cx="1309.337875681976" cy="446.39519832541066" r="5.765705982481808" 
+              fill="#f59e0b" 
+              style="animation-delay: 0.6567066771640058s" />
+    
+        <line class="connection" x1="1309.337875681976" y1="446.39519832541066" x2="960" y2="540" 
+              stroke="#4f46e5" stroke-width="1" opacity="0.2" 
+              style="animation-delay: 0.6567066771640058s" />
+      
+        
+        <!-- Pulsing Waves -->
+        <circle cx="960" cy="540" r="120" fill="none" stroke="#4f46e5" stroke-width="2" opacity="0.3">
+          <animate attributeName="r" values="120;180;120" dur="4s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4s" repeatCount="indefinite" />
+        </circle>
+        
+        <circle cx="960" cy="540" r="160" fill="none" stroke="#10b981" stroke-width="2" opacity="0.2">
+          <animate attributeName="r" values="160;220;160" dur="5s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.2;0.05;0.2" dur="5s" repeatCount="indefinite" />
+        </circle>
+      </g>
+
+      <!-- Text Elements -->
+      <g id="text">
+        <text x="960" y="880" text-anchor="middle" 
+              font-family="Segoe UI, Arial" font-size="64" font-weight="bold" 
+              fill="#f8fafc" filter="url(#glow)">
+          Reactive Event System
+        </text>
+        <text x="960" y="960" text-anchor="middle" 
+              font-family="Segoe UI, Arial" font-size="32" fill="#10b981">
+          @alekstar79
+        </text>
+        <text x="960" y="1000" text-anchor="middle" 
+              font-family="Segoe UI, Arial" font-size="20" fill="#f59e0b" opacity="0.8">
+          v1.0.0
+        </text>
+      </g>
+
+      <!-- Animation Styles -->
+      <style>
+        @keyframes pulse {
+          0%, 100% { opacity: 0.3; transform: scale(1); }
+          50% { opacity: 0.7; transform: scale(1.1); }
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-5px); }
+        }
+        @keyframes glow {
+          0%, 100% { filter: brightness(1); }
+          50% { filter: brightness(1.3); }
+        }
+        
+        .node {
+          animation: pulse 3s infinite ease-in-out;
+        }
+        .connection {
+          animation: glow 4s infinite ease-in-out;
+        }
+        #network {
+          animation: float 8s infinite ease-in-out;
+        }
+      </style>
+    </svg>
+  
